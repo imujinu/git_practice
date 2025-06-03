@@ -1,4 +1,4 @@
 testfolder/important_config.yml
 # 한번 커밋된 파일은 즉시 ignore 되지 않음 
-hello.txt
+
 # git rm -r -cached
