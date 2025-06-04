@@ -16,6 +16,9 @@ git commit
 #commit 이력 확인
 git log
 git log --oneline
+# head 하단의 로그만 보이는 것이아니라, 모든 commit이력을 조회
+# head : 현재 checkout 하고 있는 commitId를 의미
+git log --all
 
 #원격저장소로 업로드
 git push origin 브랜치명
@@ -25,3 +28,9 @@ git push origin 브랜치명 --force
 
 ## add와 동시에 커밋밋
 git commit -am "커밋메시지" 
+
+# 특정 commit Id로 전환
+git checkout 커밋ID
+
+# 특정 branch로의 전환
+git checkout 브랜치명
