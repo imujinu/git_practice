@@ -69,4 +69,16 @@ git stash list
 # 저장한 목록 전체 삭제
 git stash clear
 
+#tag관련 명령어
+# 가장 최신의 commit tag가 명시
+git tag 버전명
+
+# tag release
+git push origin v1.0 
+
+#현재 checkout 되어 있는 브랜치를 기준으로 새로운 브랜치 생성
+git branch 브랜치명
+
+새로운 작업시작시에, main을 최신화 한 후에 main을 기준으로 branch 생성
+
 
